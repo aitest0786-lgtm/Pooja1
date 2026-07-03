@@ -19,7 +19,7 @@ async function verifyLiveHtml() {
     console.log("Live app.js script tags:", appJsMatches);
     
     // Find style.css link tags
-    const styleCssMatches = html.match(/href=["'].*?style\.css.*?["']/gi);
+    const styleCssMatches = html.match(/href=["'].*?style\.css.*?["']/gi); 
     console.log("Live style.css link tags:", styleCssMatches);
     
     // Find title tag
